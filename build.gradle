@@ -1,0 +1,3 @@
+task stage () {
+    dependsOn ':EventRegistration-App-Backend:assemble'
+}

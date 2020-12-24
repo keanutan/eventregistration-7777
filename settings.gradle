@@ -9,3 +9,4 @@
 
 rootProject.name = 'eventregistration-7777'
 include('lib')
+include ':EventRegistration-Backend'
