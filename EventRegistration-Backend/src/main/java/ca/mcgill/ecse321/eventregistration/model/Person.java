@@ -1,8 +1,18 @@
 package ca.mcgill.ecse321.eventregistration.model;
 
-public class Person {
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
-	public void setName(String name) {
-	}
-    
+@Entity
+public class Person {
+    private String name;
+
+    public void setName(String value) {
+        this.name = value;
+    }
+
+    @Id
+    public String getName() {
+        return this.name;
+    }
 }
